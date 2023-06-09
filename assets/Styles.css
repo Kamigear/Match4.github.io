@@ -4,6 +4,20 @@ body {
   background-size: cover;
 }
 
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+   grid-gap: 10px;
+}
+
+.button-container button {
+  display: block;
+      width: 100%;
+}
+
+.hidden {
+  display: none;
+}
 .center {
   text-align: center;
 }
@@ -25,6 +39,7 @@ body {
   background-size: cover;
   width: 81px;
   height: 93px;
+  border: double black 7px;
 }
 
 #Button1B {
@@ -32,6 +47,7 @@ body {
   background-size: cover;
   width: 81px;
   height: 93px;
+  border: double black 7px;
 }
 
 /* Button 2A settings */
@@ -40,6 +56,7 @@ body {
   background-size: cover;
   width: 81px;
   height: 93px;
+  border: double black 7px;
 }
 
 #Button2B {
@@ -47,6 +64,7 @@ body {
   background-size: cover;
   width: 81px;
   height: 93px;
+  border: double black 7px;
 }
 
 /* Button 3A settings */
@@ -55,6 +73,7 @@ body {
   background-size: cover;
   width: 81px;
   height: 93px;
+  border: double black 7px;
 }
 
 #Button3B {
@@ -62,6 +81,7 @@ body {
   background-size: cover;
   width: 81px;
   height: 93px;
+  border: double black 7px;
 }
 
 /* Button 4A settings */
@@ -70,6 +90,7 @@ body {
   background-size: cover;
   width: 81px;
   height: 93px;
+  border: double black 7px;
 }
 
 #Button4B {
@@ -77,6 +98,7 @@ body {
   background-size: cover;
   width: 81px;
   height: 93px;
+  border: double black 7px;
 }
 
 /* Button 5A settings */
@@ -85,6 +107,7 @@ body {
   background-size: cover;
   width: 81px;
   height: 93px;
+  border: double black 7px;
 }
 
 #Button5B {
@@ -92,4 +115,5 @@ body {
   background-size: cover;
   width: 81px;
   height: 93px;
+  border: double black 7px;
 }
